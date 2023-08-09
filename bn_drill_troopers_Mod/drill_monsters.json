@@ -1,0 +1,45 @@
+[
+  {
+    "id": "mon_drill_trooper1",
+    "type": "MONSTER",
+    "name": "drill trooper",
+    "description":
+    "A female drill trooper.",
+	"default_faction": "drill trooper",
+    "bodytype": "human",
+	"species": [ "HUMAN" ],
+	"categories": [ "CLASSIC","WILDLIFE","NULL" ],
+	"volume": "50 L",
+	"weight": "52 kg",
+    "hp": 60,
+    "speed": 60,
+    "material": [ "flesh","plastic" ],
+    "symbol": "@",
+    "color": "red",
+	"aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 6,
+    "melee_dice_sides": 5,
+	"attack_cost": 10,
+	"melee_damage": [ { "damage_type": "stab", "amount": 5 } ],
+	"harvest":"zombie",
+    "vision_day": 20,
+    "vision_night": 2,
+	"fear_triggers":[  ],
+	"special_attacks":	[ 
+	{ "type": "leap", "cooldown": 5, "max_range": 2 }
+	],
+    "death_drops": {  },
+    "flags": [
+      "SEES",
+	  "GROUP_BASH",
+	  "GRABS",
+      "HEARS",
+      "SMELLS",
+      "HUMAN",
+	  "SWIMS",
+      "PUSH_MON"
+    ]
+  }
+]

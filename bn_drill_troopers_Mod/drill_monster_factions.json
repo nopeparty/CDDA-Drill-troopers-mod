@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "drill",
+    "friendly": [ "kaijin","zombie","shocker","shocker1","shocker2" ],
+    "neutral": [ "small_animal","fish" ],
+	"hate": [ "human","player" ],
+    "by_mood": [  ]
+  }
+]
